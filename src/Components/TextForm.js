@@ -1,4 +1,5 @@
 import React,{useState} from 'react'
+import Temple from './Temple';
 
 export default function TextForm(props) {
     const HandleUpClick=()=>{
@@ -46,6 +47,7 @@ export default function TextForm(props) {
         <h2>Preview</h2>
         <p>{text.length>0?text :"Enter something in the textbox above to preview it here"}</p>
     </div>
+    <Temple/> 
     </>
   )
 }
